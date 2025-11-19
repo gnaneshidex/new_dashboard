@@ -13,7 +13,7 @@ GITHUB_BASE = "https://raw.githubusercontent.com/gnaneshidex/TDS/main/Tool_Dashb
 DATA_DIR = "data"
 st.set_page_config(page_title="Tool Compatibility Optimizer", layout="wide")
 
-st.title("Akron Brass Compnay Tool Compatibility Optimizer")
+st.title("Akron Brass Company Tool Compatibility Optimizer")
 
 
 # =============================================
@@ -194,4 +194,5 @@ if st.button("⚙️ Optimize"):
             f,
             file_name=f"{selected_wc}_Optimization_Results.xlsx"
         )
+
 
